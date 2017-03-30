@@ -410,6 +410,7 @@ tr:hover{background-color:#f5f5f5}
   <button id="export-btn" class="btn btn-primary">Export Data</button>
   <p id="export"></p>
 </div>
+<script>
              var $TABLE = $('#table');
 var $BTN = $('#export-btn');
 var $EXPORT = $('#export');
@@ -463,7 +464,9 @@ $BTN.click(function () {
   
   // Output the result
   $EXPORT.text(JSON.stringify(data));
-});       </div>
+});   
+</script>
+    </div>
                     <div class="tab-pane fade" id="service-three">
                         <h4>Service Three</h4>
                     </div>
